@@ -1,0 +1,33 @@
+/* src/styles/styles.css */
+
+#slider {
+  position: relative;
+  height: 2px;
+  background-color: #e5e5e5; /* Light gray */
+  border-radius: 5px;
+}
+
+#handle1,
+#handle2 {
+  position: absolute;
+  top: -8px; /* Adjust this value to position the handles above the slider */
+  width: 16px; /* Width of the handle */
+  height: 16px; /* Height of the handle */
+  background-color: red; /* Color of the handles */
+  border-radius: 50%; /* Make it circular */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#handle1:hover,
+#handle2:hover {
+  background-color: darkred; /* Change color on hover */
+}
+
+#range {
+  position: absolute;
+  top: 0;
+  height: 2px;
+  background-color: red; /* Color of the range */
+  border-radius: 5px;
+}
