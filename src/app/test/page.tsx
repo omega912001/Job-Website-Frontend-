@@ -1,4 +1,6 @@
 "use client";
+import Link from "next/link";
+
 import Sidebar from "@/components/dash/sidebar";
 import { useState } from "react";
 import head from "next/head";
@@ -441,7 +443,7 @@ export default function DashboardLayout({
                               />
                               <div>
                                 <h2 className="text-lg font-semibold">
-                                  {job.title}
+                                  <Link href="/testing">{job.title}</Link>
                                 </h2>
                                 <p className="text-gray-500 text-sm">
                                   {job.company} • {job.applicants} Applicants
