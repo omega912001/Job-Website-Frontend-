@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Website Frontend
 
-## Getting Started
+This is a **Job Website Frontend** built with **Next.js** and **Tailwind CSS**. The website consists of three main pages: a landing page, a job listing page with job cards, and a job details page. Users can view job details and apply for jobs using a modal form.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Landing Page**: Provides an overview of the website.
+- **Job Listing Page**: Displays job cards with company names, salaries, and posting dates.
+- **Job Details Page**: Shows detailed information about a selected job.
+- **Apply Now Modal**: A modal form allows users to enter their details and submit a job application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. **Landing Page**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- The homepage of the website.
+- Provides an introduction and overview of the job board.
 
-## Learn More
+### 2. **Job Listing Page**
 
-To learn more about Next.js, take a look at the following resources:
+- Displays job cards with the following details:
+  - **Company Name**
+  - **Salary**
+  - **Posted Date**
+- Features a sidebar for navigation.
+- Clicking on a job card redirects the user to the job details page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. **Job Details Page**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Shows comprehensive details about the selected job.
+- Includes an **Apply Now** button.
+- Clicking the **Apply Now** button opens a modal form.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **[Next.js](https://nextjs.org/)**: For server-side rendering and frontend development.
+- **[Tailwind CSS](https://tailwindcss.com/)**: For styling and responsiveness.
+- **JavaScript**: For dynamic interactions like modal functionality.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# How to Use
+
+## Landing Page:
+
+- Explore the introduction and features of the job website.
+
+## Job Listing Page:
+
+- View job cards with details like company name, salary, and posting date.
+- Click on a job card to view detailed job information.
+
+## Job Details Page:
+
+- Review the job details.
+- Click the Apply Now button to open a modal.
+- Fill out the form with your details and submit your application.
+
+## Apply Now Modal:
+
+- Opens a modal form upon clicking the **Apply Now** button.
+- Form fields include:
+  - Full Name
+  - Email Address
+  - Phone Number
+  - Cover Letter (optional)
+- A user-friendly submission process to apply for jobs.
+
+## Landing Page
+
+![Logo](images/landing_page.png)
+
+## Job Listing Page
+
+![Feature Screenshot](images/job_listing_page.png)
+
+## Job Details
+
+![Feature Screenshot](images/job_details.png)
+
+## Modal
+
+![Installation Steps](images/modal.png)
