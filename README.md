@@ -66,7 +66,9 @@ This is a **Job Website Frontend** built with **Next.js** and **Tailwind CSS**. 
 
 ## Landing Page
 
-![Logo](images/landing_page.png)
+![Logo](../job-board/images/landing_page.png)
+
+<!-- ![Logo](images/landing_page.png) -->
 
 ## Job Listing Page
 
